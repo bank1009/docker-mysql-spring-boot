@@ -11,6 +11,6 @@ Run docker-mysql-spring-boot and link to running mysql in the one command
 $docker run -p 8086:8086 --name users-mysql --link mysql-standalone:mysql -d users-mysql
 
 Test on web browser
-http://<host-ip>:8086/all/
-http://<host-ip>:8086/all/create
+http://[host-ip]:8086/all/
+http://[host-ip]:8086/all/create
 
